@@ -7,6 +7,13 @@ double calculateArea(double radius) {
     return M_PI * radius * radius;  // Area formula: πr^2
 }
 
+
+// Function to calculate the perimeter (circumference) of a circle
+
+double calculatePerimeter(double radius) {
+    return 2 * M_PI * radius;  // Perimeter formula: 2πr
+}
+
 int main() {
     double radius;
 
